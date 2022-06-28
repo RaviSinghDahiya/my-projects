@@ -73,7 +73,7 @@ function Footer(){
                 <div className="bg-black py-4">
                     <div className='container mr-auto'>
                         <div className='d-block'>
-                           <p className='text-center text-white'>© 2022 All Rights Reserved. Designed by <a href="https://github.com/RaviSinghDahiya">Ravi Singh</a></p>
+                           <p className='text-center text-white'>© 2022 All Rights Reserved. Designed by <a href="#">Ravi Singh</a></p>
                         </div>
                     </div>
                 </div>

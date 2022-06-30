@@ -20,6 +20,9 @@ function Team(){
         <>
             <div className='py-10' id='team'>
                 <div className='container m-auto'>
+                    <div className='d-block mb-8'>
+                        <h3 className='text-4xl font-bold text-slate-900 text-center'>Team</h3>
+                    </div>
                     <div className='flex justify-between md:flex-row flex-wrap'>
                         {
                             team.map((props)=>(

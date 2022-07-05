@@ -8,6 +8,8 @@ function Navbar(){
         {name:"About Us", link:"/#about"},
         {name:"Services", link:"/#services"},
         {name:"Team", link:"/#team"},
+        {name:"Faqs", link:"/#faqs"},
+        {name:"Blog", link:"/#blog"},
         {name:"Contact Us", link:"/"},
     ];
 

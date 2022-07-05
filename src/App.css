@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.accordion{
+  max-width: 700px;
+  margin: auto;
+}
+
+
+
+.tab-content{
+  border-top: #282c34 solid 1px;
+}
+.tab-content.show{
+  display: block;
+}
+.tab-content.hide{
+  display: none;
 }

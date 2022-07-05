@@ -6,10 +6,10 @@ function Team(){
             mName: 'Ravi Singh', mTitle: 'Web Designer', mImg: './images/team-member-1.jpg', fb: 'https://www.facebook.com/', insta: 'https://www.instagram.com/', linkedin: 'https://www.linkedin.com/', twitter: 'https://twitter.com/login'
         },
         {
-            mName: 'Tinka', mTitle: 'SEO', mImg: './images/team-member-2.jpg', fb: 'https://www.facebook.com/', insta: 'https://www.instagram.com/', linkedin: 'https://www.linkedin.com/', twitter: 'https://twitter.com/login'
+            mName: 'Emily', mTitle: 'SEO', mImg: './images/team-member-2.jpg', fb: 'https://www.facebook.com/', insta: 'https://www.instagram.com/', linkedin: 'https://www.linkedin.com/', twitter: 'https://twitter.com/login'
         },
         {
-            mName: 'Chetan', mTitle: 'CEO', mImg: './images/team-member-3.jpg', fb: 'https://www.facebook.com/', insta: 'https://www.instagram.com/', linkedin: 'https://www.linkedin.com/', twitter: 'https://twitter.com/login'
+            mName: 'Chetan', mTitle: 'Developer', mImg: './images/team-member-3.jpg', fb: 'https://www.facebook.com/', insta: 'https://www.instagram.com/', linkedin: 'https://www.linkedin.com/', twitter: 'https://twitter.com/login'
         },
         {
             mName: 'John', mTitle: 'Developer', mImg: './images/team-member-4.jpg', fb: 'https://www.facebook.com/', insta: 'https://www.instagram.com/', linkedin: 'https://www.linkedin.com/', twitter: 'https://twitter.com/login'

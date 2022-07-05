@@ -6,13 +6,40 @@ import ReactPaginate from 'react-paginate';
 function Product(){
     const [data, setData] = useState([]);
 
+    // const [pageCount, setpageCount] = useState(0);
+    
+    // useEffect( ()=> {
+    //     const getComments = async () => {
+    //         const res  =  await fetch(
+    //             `https://jsonplaceholder.typicode.com/posts?_page=${currentPage}&_limit=${10}`
+    //         );
+
+    //         const data = await res.json();
+    //         const total = res.headers.get('x-total-count');
+    //         setpageCount(Math.ceil(total/10));
+
+    //             setData(data);
+    //     }
+
+    //     getComments();
+    // }, []);
+
+    // const handlePageClick = (data) =>{
+    //     let currentPage  = data.selected + 1;
+
+    //     const commentsFormServer = await fetchComments(currentPage);
+
+    //     setData(commentsFormServer);
+    // }
+
     useEffect(()=>{
         Axios.get("https://jsonplaceholder.typicode.com/posts")
         .then((response)=>{
             setData(response.data);
         })
     }, []);
-    
+
+
     const fetchComments = async (currentPage) => {
         const res = await fetch(
           `https://jsonplaceholder.typicode.com/posts?_page=${currentPage}&_limit=${10}`
@@ -23,15 +50,13 @@ function Product(){
 
       const handlePageClick = async (data) => {
         let currentPage = data.selected + 1;
-
         const commentsFormServer = await fetchComments(currentPage);
-
         setData(commentsFormServer);
     }
 
     return(
         <>
-            <div className='py-10' id='products'>
+            <div className='py-10' id='blog'>
                 <div className='container m-auto'>
                     <div className='d-block mb-8'>
                         <h3 className='text-4xl font-bold text-slate-900 text-center'>Blogs</h3>
@@ -62,6 +87,7 @@ function Product(){
                             pageRangeDisplayed={2}
                             marginPagesDisplayed={1}
                             onPageChange={handlePageClick}
+
                             containerClassName={"m-auto my-4 flex justify-content-center"}
                             pageClassName={'px-1'}
                             pageLinkClassName={'rounded-lg px-2 py-1 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900'}

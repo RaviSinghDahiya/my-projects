@@ -25,7 +25,7 @@ function Hero() {
                 </div>
             </div>
 
-            <div className='py-10'>
+            <div className='py-10 bg-slate-50'>
                 <div className='container m-auto'>
                     <div className='d-block mb-8'>
                         <h3 className='text-4xl font-bold text-slate-900 text-center'>Why Choose Us</h3>
@@ -34,7 +34,7 @@ function Hero() {
                         {
                             Choose.map((props)=>(
                                 <div className='md:w-1/3 mb-5 px-2'  key={Math.random()}>
-                                    <div className="p-6 shadow-teal-200 shadow text-center">
+                                    <div className="p-6 bg-white shadow-teal-200 shadow text-center">
                                         <img className='block m-auto' src={props.imgsrc} />
                                         <h4 className='text-2xl font-bold text-slate-800 my-2'>{props.title}</h4>
                                         <div className="choose-txt">

@@ -10,7 +10,7 @@ function Services(){
     ];
     return(
         <>
-            <div className='py-10' id='services'>
+            <div className='py-10 bg-slate-50' id='services'>
                 <div className='container m-auto'>
                     <div className='d-block mb-8'>
                         <h3 className='text-4xl font-bold text-slate-900 text-center'>Services</h3>
@@ -19,7 +19,7 @@ function Services(){
                         {
                             service.map((abc)=>(
                                 <div className='md:w-1/3 mb-5 px-2'  key={Math.random()}>
-                                    <div className="shadow-teal-200 shadow">
+                                    <div className="shadow-teal-200 shadow bg-white ">
                                         <img className='block m-auto' src={abc.imgsrc} />
                                         <div className='p-4 '>
                                             <p>{abc.srvcSmallTitle}</p>

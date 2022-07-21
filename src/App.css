@@ -58,3 +58,7 @@ html{
 .tab-content.hide{
   display: none;
 }
+
+.testimonials-slider .slick-arrow:before{
+  color: black;
+}

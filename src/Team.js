@@ -1,5 +1,9 @@
 import { IoLogoFacebook, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io";
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function Team(){
     let team = [
         {
@@ -16,8 +20,20 @@ function Team(){
         }
     ];
 
+    let settings = {
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        arrows: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
+
     return(
         <>
+           
+
             <div className='py-10' id='team'>
                 <div className='container m-auto'>
                     <div className='d-block mb-8'>
@@ -46,6 +62,38 @@ function Team(){
                     </div>
                 </div>
             </div>
+
+            <div className='py-10' id='testimonials'>
+                <div className='container m-auto'>
+                    <div className='d-block mb-8'>
+                        <h3 className='text-4xl font-bold text-slate-900 text-center'>Testimonials</h3>
+                    </div>
+                    <div className='testimonials-slider'>
+                        <Slider {...settings}>
+                            <div className="text-center bg-gray-100 p-10">
+                                <div className="testi-txt text-1xl mb-5">
+                                    <p>It contains the features you would expect for any carousel of its kind and a fading effect on top of the usual scrolling one.</p>
+                                </div>
+                                <h3 className='text-2xl font-bold text-slate-900'>Member Name</h3>
+                            </div>
+                            <div className="text-center bg-gray-100 p-10">
+                                <div className="testi-txt text-1xl mb-5">
+                                    <p>It contains the features you would expect for any carousel of its kind and a fading effect on top of the usual scrolling one.</p>
+                                </div>
+                                <h3 className='text-2xl font-bold text-slate-900'>Member Name</h3>
+                            </div>
+                            <div className="text-center bg-gray-100 p-10">
+                                <div className="testi-txt text-1xl mb-5">
+                                    <p>It contains the features you would expect for any carousel of its kind and a fading effect on top of the usual scrolling one.</p>
+                                </div>
+                                <h3 className='text-2xl font-bold text-slate-900'>Member Name</h3>
+                            </div>
+                        
+                        </Slider>
+                    </div>
+                </div>
+            </div>
+
         </>
     )
 }

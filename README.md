@@ -116,7 +116,5 @@
 114 https://www.bugendaitech.com<br>
 115 https://www.bugendaitech.de<br>
 116 https://cooshcare.com <br>
-117 https://fightperiodpoverty.org <br>
-118 https://shieldsorb.com<br>
-119 https://thisisus.in <br>
-120 https://birdtalkers.in <br>
+117 https://shieldsorb.com<br>
+118 https://thisisus.in <br>

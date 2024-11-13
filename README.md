@@ -1,4 +1,4 @@
-<h2><b>List of project </b></h2>
+<h2><b>List of Projects </b></h2>
 
 01 https://seogoldcoast.com.au <br>
 02 https://www.amaze.org.au <br>
